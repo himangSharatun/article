@@ -1,0 +1,36 @@
+When we talk about Dota Bot, "an awful noob player" is what most Dota player describe it and even someone noob like me can defeat it 5 times in arrow in 1vs1. But, everything is changing after August 11th, 2017, when OpenAI Dota Bot dominantely defeat Dendi (2-0)[https://www.youtube.com/watch?v=RIvmvL5_DY8&t=1219s], the former champion of Dota 2 in 1vs1 match. Indeed, unlike normal 1vs1, there is some limitations in that match which are: 
+1. No bottle
+2. No neutral
+3. No runes
+4. No raindrops
+5. No shrines
+6. No soul ring
+but the bot manage to perform high level technique such as Creep Blocking, Manipulating Creep Aggro, Zoning, Raze Dodging, Raze Faking etc and making Dendi describe it as "scary" in the short interview after the bot beat him. The skill level that OpenAI displayed on that event cause pros and cons. Some profesionnal teams are asking access to this bot as their regular training material while others making an argument how this bot will destroy the competitions. In my prespective, to trigger such debates inside Dota community shows how good this bot really is and as a self proclaim computer nerd, I can't help but wonder how this bot actually works since the developer haven't release any paper regarding the algorithm used to train the bot. Therefore I did some digging regarding OpenAI Dota bot and now I would like to share what I found.
+
+
+
+Last Hitting: Dealing the final blow to an enemy unit in order to be rewarded extra gold
+Manipulating Creep Aggro: Attackin enemy hero to draw their creeps to you, letting you manipulate their positions
+Creep Blocking: Slow your creep down to control their positions
+Zoning: Preventing your opponent to get close to your creeps, making it hard for them to gain experience and gold
+Raze Dodging: Dodging damaging skill by undertanding the lag between the casting animation and its impact
+Raze Faking: Executing part of Raze Animation in order to trick the enemy into dodging it
+Chasing: Pursuing low health enemy hero in order to kill it
+
+Shadow Fiend Rules:
+1. No bottle
+2. No neutral
+3. No runes
+4. No raindrops
+5. No shrines
+6. No soul ring
+
+March 1st: had our first classical reinforcement learning results in a simple Dota environment, where a Drow Ranger learns to kite a hardcoded Earthshaker.
+May 8th: 1.5k MMR tester says he’s been getting better faster than the bot.
+Early June: beat 1.5k MMR tester
+June 30th: winning most games against 3k MMR tester
+July 8th: barely get first win against 7.5k MMR semi-pro tester.
+August 7th: beat Blitz (6.2k former pro) 3-0, Pajkatt (8.5k pro) 2-1, and CC&C (8.9k pro) 3-0. All agreed that Sumail would figure out how to beat it.
+August 9th: beat Arteezy (10k pro, top player) 10-0. He says Sumail could figure out this bot.
+August 10th: beat Sumail (8.3k pro, top 1v1 player) 6-0, who says it’s unbeatable. Plays the Aug 9th bot, where he goes 2-1.
+August 11th: beat Dendi (7.3k pro, former world champion, old-school crowd favorite) 2-0. Bot has 60% win rate versus August 10th bot.
